@@ -1,7 +1,44 @@
+/* styles/home.module.css */
 .main {
-  padding: 20px 20px 60px;
+  padding: 20px;
   max-width: 680px;
   margin: 0 auto;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.listContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin: 15px 0;
+}
+
+.link {
+  display: block;
+  padding: 10px 15px;
+  background-color: #0070f3;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: #005bb5;
 }
 
 .hr {
