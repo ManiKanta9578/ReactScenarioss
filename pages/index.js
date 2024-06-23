@@ -12,6 +12,9 @@ function Home() {
           <li className={styles.listItem}>
             <Link href="/dynamicHtml" className={styles.link}>Display Dynamic HTML</Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/parentChildMethodCall" className={styles.link}>Parent Child Method Call</Link>
+          </li>
         </ol>
       </nav>
     </main>
