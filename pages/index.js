@@ -13,7 +13,10 @@ function Home() {
             <Link href="/dynamicHtml" className={styles.link}>Display Dynamic HTML</Link>
           </li>
           <li className={styles.listItem}>
-            <Link href="/parentChildMethodCall" className={styles.link}>Parent Child Method Call</Link>
+            <Link href="/parentChildMethodCall" className={styles.link}>How to call parent component method from child component in reactCall</Link>
+          </li>
+          <li className={styles.listItem}>
+            <Link href="/accessDomElement" className={styles.link}>How do you access the dom element in react</Link>
           </li>
         </ol>
       </nav>
