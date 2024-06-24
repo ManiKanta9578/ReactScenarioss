@@ -18,6 +18,9 @@ function Home() {
           <li className={styles.listItem}>
             <Link href="/accessDomElement" className={styles.link}>How do you access the dom element in react</Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/arrayOfObjectsDropdown" className={styles.link}>How to bind array/array of objects to dropdown in react</Link>
+          </li>
         </ol>
       </nav>
     </main>
