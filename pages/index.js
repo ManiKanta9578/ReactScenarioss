@@ -21,6 +21,9 @@ function Home() {
           <li className={styles.listItem}>
             <Link href="/arrayOfObjectsDropdown" className={styles.link}>How to bind array/array of objects to dropdown in react</Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/lazyLoading" className={styles.link}>Create a lazy loaded component in react</Link>
+          </li>
         </ol>
       </nav>
     </main>
