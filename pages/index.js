@@ -27,6 +27,9 @@ function Home() {
           <li className={styles.listItem}>
             <Link href="/arrayOfObjectsRadioBtn" className={styles.link}>Bind array/array of objects to radio button in react</Link>
           </li>
+          <li className={styles.listItem}>
+            <Link href="/displayObjectsAndKeys" className={styles.link}>Display keys and values of objects in a loop in react</Link>
+          </li>
         </ol>
       </nav>
     </main>
