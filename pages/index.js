@@ -13,6 +13,7 @@ const routes = [
   { href: "/displayObjectsAndKeys", title: "Display keys and values of objects in a loop in react" },
   { href: "/methodOnRerender", title: "How to call a method on every rerender of a component in react" },
   { href: "/searchFilter", title: "Create a search textbox filter in react" },
+  { href: "/useReducer", title: "Create a counter component using useReducer in react" },
 ];
 
 function Home() {
