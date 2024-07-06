@@ -15,6 +15,7 @@ const routes = [
   { href: "/searchFilter", title: "Create a search textbox filter in react" },
   { href: "/useReducer", title: "Create a counter component using useReducer in react" },
   { href: "/textboxChildComp", title: "Change focus/enable/disable textbox in child component based on parent component button click in react?" },
+  { href: "/otp", title: "OTP Fields" },
 ];
 
 function Home() {
