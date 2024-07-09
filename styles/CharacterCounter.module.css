@@ -1,0 +1,41 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .textarea {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: border-color 0.3s ease;
+  }
+  
+  .textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+  }
+  
+  .characterCount {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4a5568;
+    text-align: right;
+  }
+  
+  .characterCount.warning {
+    color: #ed8936;
+  }
+  
+  .characterCount.danger {
+    color: #e53e3e;
+  }

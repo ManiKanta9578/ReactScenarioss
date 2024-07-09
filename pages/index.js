@@ -17,6 +17,7 @@ const routes = [
   { href: "/textboxChildComp", title: "Change focus/enable/disable textbox in child component based on parent component button click in react?" },
   { href: "/otp", title: "OTP Fields" },
   { href: "/debouncing ", title: "How to perform debouncing in react ?" },
+  { href: "/characterCounter ", title: "How to display number of characters remaining functionality for textarea using react useRef?" },
 ];
 
 function Home() {
