@@ -18,6 +18,7 @@ const routes = [
   { href: "/otp", title: "OTP Fields" },
   { href: "/debouncing ", title: "How to perform debouncing in react ?" },
   { href: "/characterCounter ", title: "How to display number of characters remaining functionality for textarea using react useRef?" },
+  { href: "/twoDropdowns ", title: "Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown" },
 ];
 
 function Home() {
