@@ -16,9 +16,10 @@ const routes = [
   { href: "/useReducer", title: "Create a counter component using useReducer in react" },
   { href: "/textboxChildComp", title: "Change focus/enable/disable textbox in child component based on parent component button click in react?" },
   { href: "/otp", title: "OTP Fields" },
-  { href: "/debouncing ", title: "How to perform debouncing in react ?" },
-  { href: "/characterCounter ", title: "How to display number of characters remaining functionality for textarea using react useRef?" },
-  { href: "/twoDropdowns ", title: "Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown" },
+  { href: "/debouncing", title: "How to perform debouncing in react ?" },
+  { href: "/characterCounter", title: "How to display number of characters remaining functionality for textarea using react useRef?" },
+  { href: "/twoDropdowns", title: "Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown" },
+  { href: "/contextAPI", title: "Share data between components using the Context API " },
 ];
 
 function Home() {
