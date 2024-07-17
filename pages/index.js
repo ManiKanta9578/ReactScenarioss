@@ -20,6 +20,7 @@ const routes = [
   { href: "/characterCounter", title: "How to display number of characters remaining functionality for textarea using react useRef?" },
   { href: "/twoDropdowns", title: "Given two dropdowns, select 2nd dropdown options based on value selected in one dropdown" },
   { href: "/contextAPI", title: "Share data between components using the Context API " },
+  { href: "/themeManagement", title: "Theme Management using the Context API " },
 ];
 
 function Home() {
