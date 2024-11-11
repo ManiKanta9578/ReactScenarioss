@@ -1,0 +1,83 @@
+/* Style for the heading and main input section */
+.heading {
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.heading input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 200px;
+}
+
+.heading button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.heading button:hover {
+    background-color: #45a049;
+}
+
+/* Style for the task list */
+.taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+/* Style for each task item */
+.taskItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.taskItem div {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Style for action buttons (edit and delete) */
+.taskItem button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    transition: color 0.3s ease;
+}
+
+.taskItem button:hover {
+    color: #FF6347;
+}
+
+.taskItem button:first-of-type:hover {
+    color: #1E90FF;
+}
+
+.disable{
+    color: #ccc;
+    text-decoration: line-through;
+}
