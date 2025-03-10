@@ -22,7 +22,8 @@ const routes = [
   { href: "/contextAPI", title: "Share data between components using the Context API " },
   { href: "/themeManagement", title: "Theme Management using the Context API " },
   { href: "/useMemo", title: "Give an example of optimization using useMemo in react" },
-  { href: "/toDoReduxToolkit", title: "Redux Toolkit ToDo" }
+  { href: "/toDoReduxToolkit", title: "Redux Toolkit ToDo" },
+  { href: "/infiniteScrolling", title: "Infinite Scrolling" }
 
 ];
 
